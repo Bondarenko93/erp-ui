@@ -22,7 +22,7 @@ const CommonTable = ({ columns, dataSource, onAddPath, tableProps }: CommonTable
 
   return (
     <>
-      <Space align="center" style={{ marginBottom: '10px' }}>
+      <Space align="center" style={{ marginBottom: '15px' }}>
         <RoleButton
           allowedRoles={['admin', 'manager']}
           buttonProps={{
